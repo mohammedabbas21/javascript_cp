@@ -137,7 +137,7 @@ console.log(months); // expected output: Array ["Dec", "Feb", "Jan", "March"]
 const array1 = [1, 30, 4, 21, 100000];
 array1.sort((a,b) => a-b ); //Sort elements in ascending order. b-a will sort it in descending order.
 console.log(array1); // [ 1, 4, 21, 30, 100000 ]
-
+// Check for sorting in 2d arrays
 14) reverse() :  reverses an array in place and returns the reference to the same array, the first array element now becoming the last, and the last array element becoming the first.
 
 // Using reverse in array of strings.
